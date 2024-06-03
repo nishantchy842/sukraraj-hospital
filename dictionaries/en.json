@@ -1,0 +1,21 @@
+{
+   "navList": {
+      "home": "Home",
+      "about": "About us",
+      "contact": "Contact us",
+      "departments": "Units",
+      "gallery": "Gallery",
+      "services": "Services",
+      "opdSchedule": "OPD Schedule",
+      "research": "Research & Academics",
+      "noticeBoard": "Notice Board",
+      "downloads": "Downloads",
+      "dailyCensus": "Daily census",
+      "clientConcern": "Client Concern"
+   },
+   "info": {
+      "gov": "Government of Nepal",
+      "min": "Ministry of Health and Population",
+      "title": "Sukraraj Tropical & Infectious Disease Hospital"
+   }
+}

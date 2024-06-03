@@ -1,0 +1,70 @@
+@import '/app/styles/mixins.scss';
+
+.home_container {
+   :global .about_schedule {
+      padding-top: 35px;
+
+      .about {
+         display: grid;
+         grid-template-columns: 2.5fr 1fr;
+         column-gap: px2vwL(32);
+         .about_title {
+            width: px2vwL(108);
+            font-weight: 500;
+            font-size: px2vwL(36);
+            color: #303030;
+            line-height: px2vwL(60);
+            position: relative;
+            &::before {
+               content: '';
+               width: px2vwL(40);
+               height: px2vwL(2);
+               background: #b82432;
+               position: absolute;
+               bottom: 0;
+               border-radius: px2vwL(5);
+               transition: 0.5s;
+            }
+            &:hover::before {
+               width: 100%;
+            }
+         }
+         .description {
+            margin-top: px2vwL(20);
+            margin-bottom: px2vwL(14);
+            font-size: px2vwL(18);
+            font-weight: 400;
+            line-height: px2vwL(34);
+         }
+      }
+
+      .opening_schedule {
+         display: flex;
+         flex-direction: column;
+         row-gap: 30px;
+      }
+   }
+   :global .slick-dots {
+      // align-items: flex-end !important;
+      // justify-content: flex-end !important;
+      bottom: 25px !important;
+      li {
+         button {
+            width: 8px !important;
+            height: 8px !important;
+            border-radius: 100% !important;
+            background: white !important;
+         }
+         &:is(.slick-active) {
+            button {
+               width: 24px !important;
+               border-radius: 5px !important;
+               background: #b82432 !important;
+            }
+         }
+      }
+   }
+   :global iframe {
+      width: 100% !important;
+   }
+}

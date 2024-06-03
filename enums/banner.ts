@@ -1,0 +1,4 @@
+export enum BANNER_STATUS {
+   ACTIVE = 'ACTIVE',
+   ARCHIVED = 'ARCHIVED',
+}

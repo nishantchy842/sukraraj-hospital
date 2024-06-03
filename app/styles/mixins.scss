@@ -1,0 +1,83 @@
+@use 'sass:math';
+
+@function px2vwL($px) {
+   $result: 1;
+   $result: math.div($px, 1440) * 100;
+   @return #{$result}vw;
+}
+@function pvm($px) {
+   $result: 1;
+   $result: math.div($px, 768) * 100;
+   @return #{$result}vw;
+}
+
+@function px2vwS($px) {
+   $result: 1;
+   $result: math.div($px, 360) * 100;
+   @return #{$result}vw;
+}
+
+@function px2rem($px) {
+   $result: 1;
+   $result: math.div($px, 16);
+   @return #{$result}rem;
+}
+
+@function px2remS($px) {
+   $result: 1;
+   $result: math.div($px, 16);
+   @return #{$result}rem;
+}
+
+@function pt2vwL($pt) {
+   $result: 1;
+   $result: math.div(($pt * 0.75), 1440) * 100;
+   @return #{$result}vw;
+}
+
+@mixin mQ($arg...) {
+   @if length($arg) == 2 {
+      @media only screen and (min-width: nth($arg, 1)) and (max-width: nth($arg, 2)) {
+         @content;
+      }
+   }
+   @if length($arg) == 1 {
+      @media only screen and (max-width: nth($arg, 1)) {
+         @content;
+      }
+   }
+}
+
+@mixin themeButton($color: rgba(255, 136, 0, 1), $text: #ffffff) {
+   width: fit-content;
+   background: $color;
+   border-radius: px2vwL(4);
+   border-color: $color;
+   border-width: px2vwL(2);
+   height: px2vwL(50);
+   min-height: unset;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: px2vwL(4);
+   padding: 0 px2vwL(10);
+   box-shadow: none;
+   span {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 600;
+      font-size: px2vwL(16);
+      line-height: px2vwL(22);
+      margin: 0 !important;
+      display: flex;
+      color: $text;
+   }
+   &:not(:disabled):hover,
+   &:not(:disabled):focus {
+      border-color: $color;
+      background: $color;
+   }
+   .icon {
+      font-size: px2vwL(16);
+   }
+}

@@ -1,0 +1,4 @@
+export enum CLIENT_CONCERN_STATUS {
+   ACTIVE = 'ACTIVE',
+   ARCHIVED = 'ARCHIVED',
+}

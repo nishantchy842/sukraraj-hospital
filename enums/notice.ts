@@ -1,0 +1,4 @@
+export enum NOTICE_STATUS {
+   ACTIVE = 'ACTIVE',
+   ARCHIVED = 'ARCHIVED',
+}

@@ -1,0 +1,267 @@
+@import './public.scss';
+@import './mixins.scss';
+
+.h5 {
+   font-weight: 700;
+   font-size: px2vwL(24);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(24);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(24);
+   }
+}
+.h3 {
+   font-weight: 600;
+   font-size: px2vwL(24);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(24);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(24);
+   }
+}
+.h1 {
+   font-weight: 800;
+   font-size: px2vwL(32);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(32);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(32);
+   }
+}
+
+.h2 {
+   font-weight: 400;
+   font-size: px2vwL(24);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(24);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(24);
+   }
+}
+
+.extrabold {
+   font-weight: 800;
+   font-size: px2vwL(24);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(24);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(24);
+   }
+}
+
+.h4 {
+   font-weight: 800;
+   font-size: px2vwL(18);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(18);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(18);
+   }
+}
+
+.h6 {
+   font-weight: 700;
+   font-size: px2vwL(20);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(20);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(20);
+   }
+}
+
+.medium {
+   font-weight: 500;
+   font-size: px2vwL(18);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(18);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(18);
+   }
+}
+
+.semibold {
+   font-weight: 600;
+   font-size: px2vwL(18);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(18);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(18);
+   }
+}
+
+.bold {
+   font-weight: 700;
+   font-size: px2vwL(18);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(18);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(18);
+   }
+}
+
+.body_regular {
+   font-weight: 400;
+   font-size: px2vwL(16);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(16);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(16);
+   }
+}
+
+.body_medium {
+   font-weight: 500;
+   font-size: px2vwL(16);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(16);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(16);
+   }
+}
+
+.body_semibold {
+   font-weight: 600;
+   font-size: px2vwL(16);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(16);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(16);
+   }
+}
+
+.body_bold {
+   font-weight: 700;
+   font-size: px2vwL(16);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(16);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(16);
+   }
+}
+
+.small_body_regular {
+   font-weight: 400;
+   font-size: px2vwL(14);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(14);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(14);
+   }
+}
+
+.small_body_medium {
+   font-weight: 500;
+   font-size: px2vwL(14);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(14);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(14);
+   }
+}
+
+.small_body_semibold {
+   font-weight: 600;
+   font-size: px2vwL(14);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(14);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(14);
+   }
+}
+
+.small_body_bold {
+   font-weight: 700;
+   font-size: px2vwL(14);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(14);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(14);
+   }
+}
+
+.small_regular {
+   font-weight: 400;
+   font-size: px2vwL(12);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(12);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(12);
+   }
+}
+
+.small_medium {
+   font-weight: 500;
+   font-size: px2vwL(12);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(12);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(12);
+   }
+}
+
+.small_semibold {
+   font-weight: 600;
+   font-size: px2vwL(12);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(12);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(12);
+   }
+}
+
+.small_bold {
+   font-weight: 700;
+   font-size: px2vwL(12);
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      font-size: px2vwS(12);
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+      font-size: pvm(12);
+   }
+}
+
+.text-light-blue {
+   color: #1c7dbb;
+}
+.text-orange {
+   color: #f80;
+}
+.text-grey-30 {
+   color: #303030;
+}
+.text-grey-50 {
+   color: #505050;
+}
+.text-grey-80 {
+   color: #808080;
+}
+.text-theme {
+   color: #3a3d5e;
+}
+.text-dark-brown {
+   color: #a94442;
+}
+.text-primary-blue {
+   color: #0c62bb;
+}

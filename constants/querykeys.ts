@@ -1,0 +1,59 @@
+export const AUTH = 'AUTH';
+
+export const TODO = 'TODO';
+
+export const DEPARTMENT = 'DEPARTMENT';
+
+export const GALLERY = 'GALLERY';
+
+export const SERVICES = 'SERVICES';
+
+export const NOTICE = 'NOTICE';
+
+export const NOTICE_CATEGORY = 'NOTICE_CATEGORY';
+
+export const RESOURCE = 'RESOURCE';
+
+export const RESOURCE_CATEGORY = 'RESOURCE_CATEGORY';
+
+export const RESEARCH = 'RESEARCH';
+
+export const RESEARCH_CATEGORY = 'RESEARCH_CATEGORY';
+
+export const RESEARCH_DETAILS = 'RESEARCH_DETAILS';
+
+export const NOTICE_CATEGORY_DETAILS = 'NOTICE_CATEGORY_DETAILS';
+
+//about us key
+export const ABOUTUS = 'ABOUTUS';
+
+export const ABOUTUS_STAFF_DETAILS = 'ABOUTUS_STAFF_DETAILS';
+
+export const ABOUTUS_DEVELOPMENT_COMMITTEE = 'ABOUTUS_DEVELOPMENT_COMMITTEE';
+
+export const ABOUTUS_ORGANOGRAM = 'ABOUTUS_ORGANOGRAM';
+
+export const ABOUTUS_CITIZEN_CHARTER = 'ABOUTUS_CITIZEN_CHARTER';
+
+export const ABOUTUS_FUTURE_PLAN = 'ABOUTUS_FUTURE_PLAN';
+
+//opd schedule
+export const OPDSCHEDULE = 'OPDSECHEDUL';
+
+//CLIENT CONCENR
+export const CLIENT_CONCERN = 'CLIENT_CONCERN';
+
+export const CLIENT_CONCERN_CATEGORY = 'CLIENT_CONCERN_CATEGORY';
+
+//HOme banner
+export const BANNER = 'BANNER';
+//basic info
+export const BASICINFO = 'BASICINFO';
+
+export const DAILY_CAPACITY = 'DAILY_CAPACITY';
+
+export const BOARD_MESSAGE = 'BOARD_MESSAGE';
+
+export const INFORMATION_OFFICER = 'INFORMATION_OFFICER';
+
+export const TEAM_MEMBER = 'TEAM_MEMBER';

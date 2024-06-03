@@ -1,0 +1,22 @@
+.contact_form_container {
+   :global .ant-form {
+      .ant-input-affix-wrapper {
+         height: 50px;
+      }
+      ::placeholder {
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 27px;
+         color: #808080;
+      }
+   }
+}
+.contact_wrapper {
+   .contact_details {
+      :global .ant-space {
+         :nth-child(2) {
+            display: none;
+         }
+      }
+   }
+}

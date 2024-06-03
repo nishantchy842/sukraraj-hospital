@@ -1,0 +1,4 @@
+export enum RESOURCE_CATEGORY_STATUS {
+   ACTIVE = 'ACTIVE',
+   ARCHIVED = 'ARCHIVED',
+}

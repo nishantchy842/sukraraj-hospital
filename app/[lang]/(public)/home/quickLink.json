@@ -1,0 +1,50 @@
+{
+   "links": [
+      {
+         "title_En": "OPD Schedule",
+         "title_Np": "ओपीडी तालिका",
+         "url": "/opd-schedule"
+      },
+      {
+         "title_En": "Book an appointment",
+         "title_Np": "अपोइन्टमेन्ट बुक गर्नुहोस्",
+         "url": "/opd-schedule"
+      },
+      {
+         "title_En": "Gallery",
+         "title_Np": "ग्यालेरी",
+         "url": "/gallery"
+      },
+      {
+         "title_En": "News And Notices",
+         "title_Np": "समाचार र सूचनाहरू",
+         "url": "/notices"
+      },
+      {
+         "title_En": "Services",
+         "title_Np": "सेवाहरू",
+         "url": "/services"
+      },
+      {
+         "title_En": "Units",
+         "title_Np": "एकाइहरू",
+         "url": "/units"
+      },
+
+      {
+         "title_En": "Client Concern",
+         "title_Np": "ग्राहक सरोकार",
+         "url": "/client-concern"
+      },
+      {
+         "title_En": "Online Ticketing",
+         "title_Np": "अनलाइन टिकट",
+         "url": "/"
+      },
+      {
+         "title_En": "Contact Us",
+         "title_Np": "सम्पर्क",
+         "url": "/contact-us"
+      }
+   ]
+}

@@ -1,0 +1,4 @@
+export enum RESEARCH_STATUS {
+   ACTIVE = 'ACTIVE',
+   ARCHIVED = 'ARCHIVED',
+}

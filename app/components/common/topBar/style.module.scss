@@ -1,0 +1,37 @@
+.topbar_container {
+   background: white;
+   padding-block: 8px;
+
+   @media only screen and (min-width: 300px) and (max-width: 575px) {
+      padding-block: 20px;
+   }
+   @media only screen and (min-width: 576px) and (max-width: 767px) {
+   }
+
+   :global .ant-select {
+      width: 90px;
+      height: 50px;
+      .ant-select-selector {
+         background: #0c61ba1a !important;
+      }
+      .ant-select-selection-item {
+         height: 100% !important;
+         display: flex;
+         align-items: center;
+      }
+
+      @media only screen and (min-width: 300px) and (max-width: 575px) {
+         width: 62px;
+         .ant-select-selector {
+            padding: 0 8px !important;
+         }
+         .ant-select-selection-item {
+            display: flex !important;
+         }
+      }
+
+      //       @media only screen and (min-width: 576px) and (max-width: 767px) {
+      // width: ;
+      //       }
+   }
+}

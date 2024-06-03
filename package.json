@@ -1,0 +1,82 @@
+{
+   "name": "shukraraj-hospital-frontend",
+   "version": "0.1.0",
+   "private": true,
+   "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "prepare": "husky install"
+   },
+   "dependencies": {
+      "@ant-design/cssinjs": "^1.17.1",
+      "@ant-design/icons": "^5.2.6",
+      "@formatjs/intl-localematcher": "^0.5.4",
+      "@sbmdkl/nepali-date-converter": "^2.0.2",
+      "@tanstack/react-query": "^4.35.3",
+      "@types/he": "^1.2.1",
+      "@types/js-cookie": "^3.0.6",
+      "@types/katex": "^0.16.7",
+      "antd": "^5.9.4",
+      "aos": "^2.3.4",
+      "axios": "^1.5.1",
+      "classnames": "^2.3.2",
+      "dayjs": "^1.11.10",
+      "he": "^1.2.0",
+      "html-react-parser": "^4.2.2",
+      "js-cookie": "^3.0.5",
+      "katex": "^0.16.9",
+      "lodash": "^4.17.21",
+      "moment": "^2.29.4",
+      "negotiator": "^0.6.3",
+      "nepali-date-converter": "^3.3.1",
+      "next": "14.0.1",
+      "nextjs-toploader": "^1.6.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-fast-marquee": "^1.6.3",
+      "react-icons": "^4.11.0",
+      "react-player": "^2.14.1",
+      "react-slick": "^0.30.1",
+      "react-toastify": "^10.0.4",
+      "sass": "^1.68.0",
+      "sharp": "^0.32.6",
+      "suneditor-react": "^3.6.1"
+   },
+   "lint-staged": {
+      "*.{js,jsx,ts,tsx}": [
+         "eslint --fix --ext .ts,.tsx,.js,.jsx"
+      ],
+      "*{js,jsx,ts,tsx,json,cjs,mjs,md}": [
+         "prettier --write"
+      ]
+   },
+   "devDependencies": {
+      "@commitlint/cli": "^18.5.0",
+      "@commitlint/config-conventional": "^18.5.0",
+      "@tailwindcss/typography": "^0.5.10",
+      "@types/aos": "^3.0.7",
+      "@types/lodash": "^4.14.202",
+      "@types/negotiator": "^0.6.3",
+      "@types/node": "^20",
+      "@types/react": "^18",
+      "@types/react-dom": "^18",
+      "@types/react-slick": "^0.23.13",
+      "@typescript-eslint/eslint-plugin": "^6.19.1",
+      "autoprefixer": "latest",
+      "eslint": "latest",
+      "eslint_d": "^13.1.2",
+      "eslint-config-next": "latest",
+      "eslint-plugin-react": "^7.33.2",
+      "eslint-plugin-tailwindcss": "^3.14.0",
+      "husky": "^8.0.0",
+      "lint-staged": "^15.2.0",
+      "postcss": "^8.4.35",
+      "postcss-nested": "^6.0.1",
+      "prettier": "^3.0.3",
+      "prettier-plugin-tailwindcss": "^0.5.4",
+      "tailwindcss": "^3.3.0",
+      "typescript": "^5"
+   }
+}

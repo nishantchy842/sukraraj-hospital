@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import './styles/public.scss';
+@import './styles/typography.scss';
+@import './styles/mixins.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   box-sizing: border-box;
+   font-family: Mukta;
+}
+.ant-tag {
+   font-family: Mukta !important;
+}
+
+.primary-btn {
+   width: fit-content;
+   background: #1db4e7;
+   border-radius: 4px;
+   border-color: #1db4e7;
+   border-width: 2px;
+   // height: 40px;
+   min-height: unset;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   column-gap: 4px;
+   padding: 0 10px;
+   box-shadow: none;
+   span {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18px;
+      margin: 0 !important;
+      display: flex;
+      color: #ffffff;
+   }
+   &:not(:disabled):hover,
+   &:not(:disabled):focus {
+      border-color: #1db4e7 !important;
+      background: #1db4e7;
+   }
+   .icon {
+      font-size: 16px;
+   }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+.reset *:not(img),
+.reset ::before,
+.reset ::after {
+   all: revert;
+}
+
+.reset {
+   .imgfl {
+      float: left;
+      margin-right: 30px;
+
+      @media screen and (max-width: 768px) {
+         float: none;
+         margin-right: 0;
+      }
+   }
+
+   .imgfr {
+      float: right;
+      margin-left: 30px;
+      @media screen and (max-width: 768px) {
+         float: none;
+         margin-left: 0;
+      }
+   }
+
+   h1,
+   h2,
+   h3,
+   h4 {
+      font-family: 'Rubik';
+   }
+
+   p,
+   li,
+   a,
+   span,
+   div {
+      font-family: 'Figtree';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #505050;
+
+      @media screen and (max-width: 768px) {
+         font-size: 16px;
+         line-height: 28px;
+      }
+
+      @media screen and (max-width: 639px) {
+         line-height: 24px;
+      }
+   }
+
+   img,
+   iframe {
+      max-width: 100%;
+      display: unset;
+      vertical-align: unset;
+   }
+
+   iframe {
+      @media screen and (max-width: 768px) {
+         max-height: 350px;
+      }
+      @media screen and (max-width: 639px) {
+         max-height: 200px;
+      }
+   }
+
+   ul > li {
+      line-height: 2 !important;
+      list-style-type: none !important;
+      &::before {
+         color: #f06920;
+         font-size: 24px;
+         float: left;
+         font-weight: 900;
+         margin: -0.4em 0 0 -1em;
+         width: 1rem;
+         content: '\2022';
+      }
+   }
+}
+
+.multiline-truncate {
+   display: -webkit-box;
+   -webkit-line-clamp: 6;
+   -webkit-box-orient: vertical;
+   overflow-wrap: anywhere;
+   overflow: hidden;
+}
+
+.remove-clip-path {
+   @media screen and (max-width: 768px) {
+      clip-path: polygon(
+         0px 100%,
+         0px 0px,
+         100% 0px,
+         100% 100%,
+         0px 100%
+      ) !important;
+   }
+}
+
+#map {
+   iframe {
+      height: 100%;
+      width: 100%;
+   }
+}
+#sub_hearder {
+   .ant-menu-submenu-title {
+      display: flex !important;
+      flex-direction: row-reverse;
+      align-items: center;
+      column-gap: 10px;
+   }
+}
+
+#slick {
+   .slick-dots {
+      align-items: flex-end !important;
+      justify-content: flex-end !important;
+      li {
+         button {
+            width: 8px !important;
+            height: 8px !important;
+            border-radius: 100% !important;
+            background: #80808066 !important;
+         }
+         &:is(.slick-active) {
+            button {
+               width: 24px !important;
+               border-radius: 5px !important;
+               background: #b82432 !important;
+            }
+         }
+      }
+   }
+}
+
+.sub_header_menu_active {
+   svg {
+      path {
+         fill: #ffffff !important;
+      }
+   }
+}
+
+@import './styles/admin.scss';
+@import './styles/form.scss';

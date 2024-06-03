@@ -1,0 +1,60 @@
+.customButton {
+   // width: 100%;
+   button:not(:disabled) {
+      padding-inline: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // width: auto;
+      background: #0c62bb;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      // color: $text_secondary;
+      // font-family: $font_family;
+
+      &:active {
+         color: #303030 !important;
+         // border-color: $text_secondary;
+      }
+
+      &:hover {
+         border-color: #e4e4e4;
+         // color: $text_secondary;
+      }
+      svg {
+         width: 20px;
+         height: 20px;
+      }
+      @media only screen and (min-width: 300px) and (max-width: 575px) {
+         border-radius: 4px;
+
+         svg {
+            width: 20px;
+            height: 20px;
+         }
+      }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+         border-radius: 4px;
+
+         svg {
+            width: pvm(20);
+            height: pvm(20);
+         }
+      }
+   }
+   button:disabled {
+      display: flex;
+      width: max-content;
+      align-items: center;
+      color: rgba(127, 127, 127, 0.9) !important;
+      svg {
+         path {
+            fill: rgba(127, 127, 127, 0.9) !important;
+         }
+
+         margin-right: px2vwL(4);
+      }
+   }
+}

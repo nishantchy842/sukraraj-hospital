@@ -1,0 +1,4 @@
+export enum DEPARTMENT_STATUS {
+   ACTIVE = 'ACTIVE',
+   ARCHIVED = 'ARCHIVED',
+}
